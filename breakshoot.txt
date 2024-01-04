@@ -1,0 +1,185 @@
+[good]
+version=0.3
+name=break shoot
+window=480 320
+texs=7
+levels=9 24 0 13 19 31
+
+[scripts]
+3=../good/samples/Util.lua
+11=../good/samples/ar.lua
+12=util.lua
+10=title.lua
+2=main.lua
+14=study.lua
+23=select.lua
+15=breakout.lua
+
+[stges]
+1=p.stge
+6=../25940m/25940m.stge
+
+[tex7]
+name=exit
+fileName=exit.png
+
+[level9]
+name=Title
+bgColor=0 0 0
+script=Title
+
+[level24]
+name=Select
+bgColor=0 0 0
+script=Select
+objects=8
+
+[object8]
+name=exit
+texture=7
+x=448
+dim=0 0 32 32
+
+[level0]
+name=Main
+bgColor=0 0 0
+script=Main
+objects=36 4 29 16
+
+[object36]
+sprite=34
+texture=254
+map=254
+
+[object4]
+name=paddle
+bgColor=0 255 0
+x=184
+y=288
+dim=0 0 112 16
+objects=5
+
+[object5]
+name=dummy player
+sprite=255
+texture=255
+map=255
+x=40
+y=-8
+
+[object29]
+name=bounce blocks
+sprite=255
+texture=255
+map=255
+
+[object16]
+name=exit
+texture=7
+x=448
+dim=0 0 32 32
+
+[level13]
+name=Study
+bgColor=0 0 0
+script=Study
+objects=35 18 25 17
+
+[object35]
+sprite=34
+texture=254
+map=254
+
+[object18]
+name=chars
+sprite=255
+texture=255
+map=255
+
+[object25]
+name=page info
+sprite=255
+texture=255
+map=255
+x=16
+y=32
+
+[object17]
+name=exit
+texture=7
+x=448
+dim=0 0 32 32
+
+[level19]
+name=breakout
+bgColor=0 0 0
+script=Breakout
+objects=37 20 21 28 30 26
+
+[object37]
+sprite=34
+texture=254
+map=254
+
+[object20]
+name=bricks
+sprite=255
+texture=255
+map=255
+
+[object21]
+name=paddle
+bgColor=0 255 0
+x=184
+y=288
+dim=0 0 112 16
+objects=22
+
+[object22]
+name=dummy player
+sprite=255
+texture=255
+map=255
+x=40
+y=-8
+
+[object28]
+name=bounce blocks
+sprite=255
+texture=255
+map=255
+
+[object30]
+name=lvl info
+sprite=255
+texture=255
+map=255
+
+[object26]
+name=exit
+texture=7
+x=448
+dim=0 0 32 32
+
+[level31]
+name=asset
+objects=34
+
+[object34]
+name=dummy touch area
+sprite=255
+texture=255
+map=255
+objects=32 33
+
+[object32]
+name=left area
+bgColor=5 5 5
+dim=0 0 128 320
+
+[object33]
+name=right area
+bgColor=5 5 5
+x=352
+dim=0 0 128 320
+
