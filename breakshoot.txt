@@ -8,15 +8,15 @@ levels=9 24 0 13 19 31
 [scripts]
 3=../good/samples/Util.lua
 11=../good/samples/ar.lua
-12=util.lua
-10=title.lua
-2=main.lua
-14=study.lua
-23=select.lua
-15=breakout.lua
+12=script/util.lua
+10=script/title.lua
+2=script/main.lua
+14=script/study.lua
+23=script/select.lua
+15=script/breakout.lua
 
 [stges]
-1=p.stge
+1=script/p.stge
 6=../25940m/25940m.stge
 
 [tex7]
